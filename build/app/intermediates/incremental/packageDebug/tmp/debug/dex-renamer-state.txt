@@ -1,0 +1,4 @@
+#Mon Mar 06 12:37:47 IST 2023
+base.0=/home/bhavini-pc/sandip_work/travel_app/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
