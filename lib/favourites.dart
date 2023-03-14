@@ -30,7 +30,7 @@ class _FavouritesState extends State<Favourites> {
                       ),
                     ),
                   ),
-                  Padding(
+                  Container(
                     padding: const EdgeInsets.only(top: 16.0),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.end,
@@ -68,19 +68,23 @@ class _FavouritesState extends State<Favourites> {
                       ),
                     ),
                   ),
-                  Padding(
+                  Container(
                     padding: const EdgeInsets.only(top: 16.0),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.end,
                       children: const [
-                        Expanded(child:
-                         Center(child: Text("Spain",
+                        Expanded(
+                          child:
+                         Center(
+                             child:
+                             Text("Spain",
                           style: TextStyle(color: Colors.blue,
                               fontWeight: FontWeight.bold,
                               fontSize: 20),)),
                         ),
                         Expanded(child: Icon(Icons.favorite_outlined,
-                        color: Colors.blue))
+                        color: Colors.blue),
+                        ),
                       ],
                     ),
                   ),
@@ -99,7 +103,7 @@ class _FavouritesState extends State<Favourites> {
                       ),
                     ),
                   ),
-                   Padding(
+                   Container(
                      padding: const EdgeInsets.only(top: 16.0),
                      child: Row(
                        children: const [

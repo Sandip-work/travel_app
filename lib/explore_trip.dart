@@ -38,15 +38,15 @@ class ExploreTripPage extends StatelessWidget {
                       ),
                       const SizedBox(height: 50),
 
-                      Padding(
+                      Container(
                         padding: const EdgeInsets.all(24.0),
                         child: Column(
                           children: [
                             const Text("Welcome to Travel App",
                         style: TextStyle(fontWeight: FontWeight.bold,
                             fontSize: 20,
-                            color: Colors.white),),
-
+                            color: Colors.white),
+                            ),
 
                             const SizedBox(height: 30,),
 

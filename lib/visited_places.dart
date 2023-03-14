@@ -31,7 +31,7 @@ class _VisitedState extends State<Visited> {
                       ),
                     ),
                   ),
-                  Padding(
+                  Container(
                     padding: const EdgeInsets.only(top: 16.0),
                     child: Row(
                       children:const [
@@ -62,7 +62,7 @@ class _VisitedState extends State<Visited> {
                       ),
                     ),
                   ),
-                  Padding(
+                  Container(
                     padding: const EdgeInsets.only(top: 16.0),
                     child: Row(
                       children: const [
@@ -92,7 +92,7 @@ class _VisitedState extends State<Visited> {
                       ),
                     ),
                   ),
-                  Padding(
+                  Container(
                     padding: const EdgeInsets.only(top: 16.0),
                     child: Row(
                       children:const [

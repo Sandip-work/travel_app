@@ -128,15 +128,15 @@ class _exploreState extends State<explore> {
                         ),
                       ),
 
-                      const Padding(
-                        padding: EdgeInsets.all(24.0),
-                        child: Text("Barcelona",
+                      Container(
+                        padding: const EdgeInsets.all(24.0),
+                        child: const Text("Barcelona",
                           style: TextStyle(color: Colors.white70,
                               fontWeight: FontWeight.bold,
                               fontSize: 16),
                           textAlign: TextAlign.left,),
                       ),
-                    ]
+                    ],
                 ),
                 ),
                 Expanded(child:
@@ -154,9 +154,9 @@ class _exploreState extends State<explore> {
                           ),
                         ),
                       ),
-                      const Padding(
-                        padding: EdgeInsets.all(20.0),
-                        child: Text("Granada",
+                      Container(
+                        padding: const EdgeInsets.all(20.0),
+                        child: const Text("Granada",
                           style: TextStyle(color: Colors.white70,
                               fontWeight: FontWeight.bold,
                               fontSize: 16),),
@@ -184,14 +184,14 @@ class _exploreState extends State<explore> {
                           ),
                         ),
                       ),
-                      const Padding(
-                        padding: EdgeInsets.all(24.0),
-                        child: Text("Spanish Islands",
+                      Container(
+                        padding: const EdgeInsets.all(24.0),
+                        child: const Text("Spanish Islands",
                           style: TextStyle(color: Colors.white70,
                               fontWeight: FontWeight.bold,
                               fontSize: 16),),
                       ),
-                    ]
+                    ],
                 ),
                 ),
                 Expanded(child:
@@ -209,9 +209,9 @@ class _exploreState extends State<explore> {
                           ),
                         ),
                       ),
-                      const Padding(
-                        padding: EdgeInsets.all(20.0),
-                        child: Text("Madrid",
+                      Container(
+                        padding: const EdgeInsets.all(20.0),
+                        child: const Text("Madrid",
                           style: TextStyle(color: Colors.white70,
                               fontWeight: FontWeight.bold,
                               fontSize: 16),),
@@ -239,9 +239,9 @@ class _exploreState extends State<explore> {
                           ),
                         ),
                       ),
-                      const Padding(
-                        padding: EdgeInsets.all(24.0),
-                        child: Text("Seville",
+                      Container(
+                        padding: const EdgeInsets.all(24.0),
+                        child: const Text("Seville",
                           style: TextStyle(color: Colors.white70,
                               fontWeight: FontWeight.bold,
                               fontSize: 16),),
@@ -264,12 +264,13 @@ class _exploreState extends State<explore> {
                           ),
                         ),
                       ),
-                      const Padding(
-                        padding: EdgeInsets.all(20.0),
-                        child: Text("Valencia",
+                      Container(
+                        padding: const EdgeInsets.all(20.0),
+                        child: const Text("Valencia",
                           style: TextStyle(color: Colors.white70,
                               fontWeight: FontWeight.bold,
-                              fontSize: 16),),
+                              fontSize: 16),
+                        ),
                       ),
                     ]
                 ),

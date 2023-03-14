@@ -126,7 +126,7 @@ class _exploreState extends State<explore> {
                         fontSize: 20),)),
                 ]
             ),
-             Padding(
+             Container(
                padding: const EdgeInsets.all(16.0),
                child: Form(
                 key: formKey,

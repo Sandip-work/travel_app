@@ -115,9 +115,9 @@ class _exploreState extends State<explore> {
                       ),
                     ),
                   ),
-                  const Padding(
-                    padding: EdgeInsets.all(30.0),
-                    child: Align(
+                  Container(
+                    padding: const EdgeInsets.all(30.0),
+                    child: const Align(
                       alignment: Alignment.topLeft,
                         child: Text("France",
                       style: TextStyle(color: Colors.black,
@@ -140,14 +140,14 @@ class _exploreState extends State<explore> {
                       ),
                     ),
                   ),
-                  const Padding(
-                    padding: EdgeInsets.all(30.0),
-                    child:  Align(
+                  Container(
+                    padding: const EdgeInsets.all(30.0),
                       alignment: Alignment.topLeft,
-                        child: Text("Spain",
+                        child: const Text("Spain",
                       style: TextStyle(color: Colors.black,
                           fontWeight: FontWeight.bold,
-                          fontSize: 20),)),
+                          fontSize: 20),
+                        ),
                   ),
                 ]
             ),
@@ -164,14 +164,14 @@ class _exploreState extends State<explore> {
                       ),
                     ),
                   ),
-                  const Padding(
-                    padding:  EdgeInsets.all(30.0),
-                    child: Align(
+                  Container(
+                    padding: const  EdgeInsets.all(30.0),
                       alignment: Alignment.topLeft,
-                        child: Text("U S",
+                        child: const Text("U S",
                       style: TextStyle(color: Colors.black,
                           fontWeight: FontWeight.bold,
-                          fontSize: 20),)),
+                          fontSize: 20),
+                        ),
                   ),
                 ]
             ),

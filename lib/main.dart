@@ -16,7 +16,6 @@ class MyApp extends StatelessWidget {
     ));
 
     return const MaterialApp(
-
       title: 'Travel App',
       debugShowCheckedModeBanner: false,
       home: ExploreTripPage(),
